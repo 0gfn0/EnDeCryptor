@@ -4,7 +4,7 @@ project(EnDeCryptor)
 include(ExternalProject)
 
 set(wxWidgets_INSTALL_DIR ${CMAKE_BINARY_DIR}/wxWidgets)
-set(wxWidgets_SOURCE_DIR ${CMAKE_SOURCE_DIR}/External/wxWidgets-3.2.5)
+set(wxWidgets_SOURCE_DIR ${CMAKE_SOURCE_DIR}/External/wxWidgets)
 
 ExternalProject_Add(
     wxWidgets

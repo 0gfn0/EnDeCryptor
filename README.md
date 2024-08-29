@@ -6,7 +6,7 @@
 4) Create build folder by "mkdir build"
 5) Open build folder in cmd by command "cd build"
 6) Print "cmake .."
-7) Print "cmake --build"
+7) Print "cmake --build ."
 8) After that you can find exe file in path/to/your/project/build/debug
 
 #2 Abilities
