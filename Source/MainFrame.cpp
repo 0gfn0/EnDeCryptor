@@ -37,7 +37,7 @@ void MainFrame::ShowChoiceCipher(){
 	wxBoxSizer* hbox = new wxBoxSizer(wxHORIZONTAL);
 	
 	buttonCaesars = CreateAndBindButton(&MainFrame::OnCaesarsButtonEvent, "Caesars");
-	buttonVigenere = CreateAndBindButton(&MainFrame::OnVigenereButtonEvent, "Vigenere");
+	buttonVigenere = CreateAndBindButton(&MainFrame::OnVigenereButtonEvent, "Vigener");
 	buttonRSA = CreateAndBindButton(&MainFrame::OnRSAButtonEvent, "RSA");
 	
 	hbox->Add(buttonCaesars, 0, wxRIGHT, 15);
