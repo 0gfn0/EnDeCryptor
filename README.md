@@ -14,10 +14,15 @@ The application can encrypt and decrypt messages in three different ways: the Ca
 
 #2.1 How to encrypt or decrypt by Caesar cipher:
 1) Push "Encrypt" or "Decrypt" button
-2) Push "Caesars" button
-3) Enter the message you want to encrypt/decrypt
-4) Enter the key, it must be a number or a digit
-5) You will see your encrypted/decrypted message
+2) ![image](https://github.com/user-attachments/assets/a0f36ad2-4f74-4edf-9620-2a677606ae21)
+3) Push "Caesars" button
+4) ![image](https://github.com/user-attachments/assets/a15407e7-5e7b-4db9-bada-e3937ff50d7b)
+5) Enter the message you want to encrypt/decrypt
+6) ![image](https://github.com/user-attachments/assets/d4fb6e1c-89b5-44a3-9312-17f29521001f)
+7) Enter the key, it must be a number or a digit
+8) You will see your encrypted/decrypted message
+9) ![image](https://github.com/user-attachments/assets/c721dcc7-5385-4ea1-81d2-a787d9e61ae7)
+
 
 #2.2
 How to encrypt or decrypt by Vigener cipher:
