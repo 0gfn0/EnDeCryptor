@@ -1,5 +1,5 @@
 <div align = "center">
- **EnDeCryptor**
+ **'EnDeCryptor'**
 #1 Installation
 1) Open https://wxwidgets.org/downloads/
 2) Download and unzip wxWidget to path EnDeCryptor/External/wxWidget
