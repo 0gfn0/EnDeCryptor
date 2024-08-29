@@ -1,3 +1,4 @@
+<div align = "center">
 # EnDeCryptor
 #1 Installation
 1) Open https://wxwidgets.org/downloads/
@@ -40,3 +41,4 @@ How to encrypt or decrypt by RSA cipher:
 4) If you want to encrypt, you need enter your puclic key (e), if you want to decrypt you need enter your private key
 5) Enter module (n)
 5) You will see your encrypted/decrypted message
+<div>
