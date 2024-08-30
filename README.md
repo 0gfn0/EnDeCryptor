@@ -27,7 +27,6 @@
  </a>
 -->
 <h3 align="center">EnDeCryptor</h3>
-
   <p align="center">
     EnDeCryptor It is a simple encoder and decoder that supports 3 encryption options: Caesar cipher, Vigener cipher, and public key (RSA).
 </div>
@@ -56,7 +55,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
   <p align="center">
-    [![MainMenu][MainMenu-screenshot]](image1.png)
+    ![MainMenu-screenshot][MainMenu-screenshot]
   </p>
 EnDecrypter supports 3 encryption options: Caesar cipher, Vigener cipher, and public key (RSA).
 
