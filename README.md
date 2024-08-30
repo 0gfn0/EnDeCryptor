@@ -55,9 +55,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<div align="center">
-[![MainMenu Product][MainMenu-screenshot]](image1.png)
-</div>
+  <p align="center">
+    [![MainMenu][MainMenu-screenshot]](image1.png)
+  </p>
 EnDecrypter supports 3 encryption options: Caesar cipher, Vigener cipher, and public key (RSA).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
