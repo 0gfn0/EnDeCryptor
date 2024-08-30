@@ -57,7 +57,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[![Product Name Screen Shot][product-screenshot]](./Assets/image.png)
+[![MainMenu Product][MainMenu-screenshot]](image.png)
 
 EnDecrypter supports 3 encryption options: Caesar cipher, Vigener cipher, and public key (RSA).
 
@@ -103,9 +103,10 @@ To get a local copy up and running app follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+You can encrypt and decrypt by 3 various cipher. Let's see how to encrypt a message using a public key.
+1. Open EnDeCryptor.exe
+[![MainMenu][MainMenu-screenshot](image.png)]
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +123,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: images/screenshot.png
+[MainMenu-screenshot]: Assets/image.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
