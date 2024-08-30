@@ -107,15 +107,25 @@ You can encrypt and decrypt by 3 various cipher. Let's see how to encrypt a mess
     <img src="Assets/image1.png" alt="MainMenu-screenshot">
 </div>
 2. Choose and press Encrypt button, you will see all posible methods of encryption, press RSA button.
-[![OptionMenu][OptionMenu-screenshot]](image2.png)
+<div align="center">
+    <img src="Assets/image2.png" alt="OptionMenu-screenshot">
+</div>
 3. Type the message you want to encrypt. 
-[![RSA-Text][RSA-Text-screenshot]](image3.png)
+<div align="center">
+    <img src="Assets/image3.png" alt="RSA-Text-screenshot">
+</div>
 4. Enter the part of the public key (e - open exp), it must be a prime number. For example e = 17. 
-[![Enumber][Enumber-screenshot]](image4.png)
+<div align="center">
+    <img src="Assets/image4.png" alt="Enumber-screenshot">
+</div>
 5. Enter the part of the public key (n - module). For example n = 3233.
-[![Nnumber][Nnumber-screenshot]](image5.png)
+<div align="center">
+    <img src="Assets/image5.png" alt="Nnumber-screenshot">
+</div>
 6. Now you get encrypted message.
-[![Message][Message-screenshot]](image6.png)
+<div align="center">
+    <img src="Assets/image6.png" alt="Message-screenshot">
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,15 +138,5 @@ You can encrypt and decrypt by 3 various cipher. Let's see how to encrypt a mess
 - [ ] More variable cipher
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[MainMenu-screenshot]: Assets/image1.png
-[OptionMenu-screenshot]: Assets/image2.png
-[RSA-Text-screenshot]: Assets/image3.png
-[Enumber-screenshot]: Assets/image4.png
-[Nnumber-screenshot]: Assets/image5.png
-[Message-screenshot]: Assets/image6.png
 
 
