@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div align="center">
-[![MainMenu Product][MainMenu-screenshot]](image.png)
+[![MainMenu Product][MainMenu-screenshot]](image1.png)
 </div>
 EnDecrypter supports 3 encryption options: Caesar cipher, Vigener cipher, and public key (RSA).
 
@@ -75,24 +75,24 @@ To get a local copy up and running app follow these simple example steps.
    ```sh
    git clone https://github.com/0gfn0/EnDeCryptor.git
    ```
-3. Unzip wxWidgets in path .../EnDeCryptor/External/wxWidgets
-4. Open cmd at folder .../EnDeCryptor and run mkdir build
+4. Unzip wxWidgets in path .../EnDeCryptor/External/wxWidgets
+5. Open cmd at folder .../EnDeCryptor and run mkdir build
    ```sh
    .../EnDeCryptor> mkdir build
    ```
-5. Go to the build folder using the cmd
+6. Go to the build folder using the cmd
    ```sh
    .../EnDeCryptor> cd build
    ```
-6. Run cmake file in build folder
+7. Run cmake file in build folder
    ```sh
    .../EnDeCryptor/build> cmake ..
    ```
-7. After a successful assembly, run the project build
+8. After a successful assembly, run the project build
    ```sh
    .../EnDeCryptor/build> cmake --build .
    ```
-8. Now you can find the EnDeCryptor.exe file along the path
+9. Now you can find the EnDeCryptor.exe file along the path
    ```sh
    .../EnDeCryptor/build/debug
    ```
@@ -103,18 +103,30 @@ To get a local copy up and running app follow these simple example steps.
 ## Usage!
 
 You can encrypt and decrypt by 3 various cipher. Let's see how to encrypt a message using a public key.
-1. Open EnDeCryptor.exe
+1. Open EnDeCryptor.exe.
+<div align="center">
 [![MainMenu][MainMenu-screenshot]](image1.png)
-2. Choose and press Encrypt button, you will see all posible methods of encryption, press RSA button
+</div>
+2. Choose and press Encrypt button, you will see all posible methods of encryption, press RSA button.
+<div align="center">
 [![OptionMenu][OptionMenu-screenshot]](image2.png)
-3. Type the message you want to encrypt
+</div>
+3. Type the message you want to encrypt.
+<div align="center">
 [![RSA-Text][RSA-Text-screenshot]](image3.png)
+</div>
 4. Enter the part of the public key (e - open exp), it must be a prime number. For example e = 17.
+<div align="center">
 [![Enumber][Enumber-screenshot]](image4.png)
-5. Enter the part of the public key (n - module). For example n = 3233
+</div>
+5. Enter the part of the public key (n - module). For example n = 3233.
+<div align="center">
 [![Nnumber][Nnumber-screenshot]](image5.png)
+</div>
 6. Now you get encrypted message.
+<div align="center">
 [![Message][Message-screenshot]](image6.png)
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
