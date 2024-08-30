@@ -53,12 +53,11 @@
   </ol>
 </details>
 
-![alt text](image.png)
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<div align="center">
 [![MainMenu Product][MainMenu-screenshot]](image.png)
-
+</div>
 EnDecrypter supports 3 encryption options: Caesar cipher, Vigener cipher, and public key (RSA).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,12 +100,21 @@ To get a local copy up and running app follow these simple example steps.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Usage!
 
 You can encrypt and decrypt by 3 various cipher. Let's see how to encrypt a message using a public key.
 1. Open EnDeCryptor.exe
-[![MainMenu][MainMenu-screenshot](image.png)]
-
+[![MainMenu][MainMenu-screenshot]](image1.png)
+2. Choose and press Encrypt button, you will see all posible methods of encryption, press RSA button
+[![OptionMenu][OptionMenu-screenshot]](image2.png)
+3. Type the message you want to encrypt
+[![RSA-Text][RSA-Text-screenshot]](image3.png)
+4. Enter the part of the public key (e - open exp), it must be a prime number. For example e = 17.
+[![Enumber][Enumber-screenshot]](image4.png)
+5. Enter the part of the public key (n - module). For example n = 3233
+[![Nnumber][Nnumber-screenshot]](image5.png)
+6. Now you get encrypted message.
+[![Message][Message-screenshot]](image6.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,20 +131,11 @@ You can encrypt and decrypt by 3 various cipher. Let's see how to encrypt a mess
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[MainMenu-screenshot]: Assets/image.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[MainMenu-screenshot]: Assets/image1.png
+[OptionMenu-screenshot]: Assets/image2.png
+[RSA-Text-screenshot]: Assets/image3.png
+[Enumber-screenshot]: Assets/image4.png
+[Nnumber-screenshot]: Assets/image5.png
+[Message-screenshot]: Assets/image6.png
+
+
