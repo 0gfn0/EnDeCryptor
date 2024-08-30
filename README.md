@@ -54,9 +54,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-  <p align="center">
-    ![MainMenu-screenshot][MainMenu-screenshot]
-  </p>
+<div align="center">
+  <img src="Assets/image1.png" alt="MainMenu-screenshot">
+</div>
 EnDecrypter supports 3 encryption options: Caesar cipher, Vigener cipher, and public key (RSA).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -104,7 +104,7 @@ To get a local copy up and running app follow these simple example steps.
 You can encrypt and decrypt by 3 various cipher. Let's see how to encrypt a message using a public key.
 1. Open EnDeCryptor.exe. 
 <div align="center">
-    <img src="image1.png" alt="MainMenu-screenshot">
+    <img src="Assets/image1.png" alt="MainMenu-screenshot">
 </div>
 2. Choose and press Encrypt button, you will see all posible methods of encryption, press RSA button.
 [![OptionMenu][OptionMenu-screenshot]](image2.png)
