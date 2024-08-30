@@ -102,30 +102,20 @@ To get a local copy up and running app follow these simple example steps.
 ## Usage!
 
 You can encrypt and decrypt by 3 various cipher. Let's see how to encrypt a message using a public key.
-1. Open EnDeCryptor.exe.
+1. Open EnDeCryptor.exe. 
 <div align="center">
-[![MainMenu][MainMenu-screenshot]](image1.png)
+    <img src="image1.png" alt="MainMenu-screenshot">
 </div>
 2. Choose and press Encrypt button, you will see all posible methods of encryption, press RSA button.
-<div align="center">
 [![OptionMenu][OptionMenu-screenshot]](image2.png)
-</div>
-3. Type the message you want to encrypt.
-<div align="center">
+3. Type the message you want to encrypt. 
 [![RSA-Text][RSA-Text-screenshot]](image3.png)
-</div>
-4. Enter the part of the public key (e - open exp), it must be a prime number. For example e = 17.
-<div align="center">
+4. Enter the part of the public key (e - open exp), it must be a prime number. For example e = 17. 
 [![Enumber][Enumber-screenshot]](image4.png)
-</div>
 5. Enter the part of the public key (n - module). For example n = 3233.
-<div align="center">
 [![Nnumber][Nnumber-screenshot]](image5.png)
-</div>
 6. Now you get encrypted message.
-<div align="center">
 [![Message][Message-screenshot]](image6.png)
-</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
