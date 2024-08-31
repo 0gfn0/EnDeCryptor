@@ -18,7 +18,7 @@ string Vigenere(const string& text, const string& keyword, bool encrypt);
 
 void GenerateKeys(long long& n, long long& e, long long& d);
 
-long long Calculate_greatest_common_divisor(long long a, long long b);
+long long CalculateGreatestCommonDivisor(long long a, long long b);
 long long ModInverse(long long e, long long phi);
 long long ModExp(long long base, long long exp, long long mod);
 

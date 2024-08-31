@@ -62,7 +62,7 @@ string Vigenere(const string& text, const string& key, bool encrypt)
 
 //For RSA
 //greatest common divisor - gcd;
-long long Calculate_greatest_common_divisor(long long a, long long b) // function for 2 numbers 
+long long CalculateGreatestCommonDivisor(long long a, long long b) // function for 2 numbers 
 {
     while (b != 0)
     {
@@ -78,7 +78,7 @@ long long ModInverse(long long key_publ_e, long long phi)
     long long x0 = 0, x1 = 1;
 
     // If a and m are not mutually simple, then there is no modular inverse
-    if (Calculate_greatest_common_divisor(key_publ_e, phi) != 1)
+    if (CalculateGreatestCommonDivisor(key_publ_e, phi) != 1)
         return -1;
 
     while (key_publ_e > 1) {
@@ -126,7 +126,7 @@ void GenerateKeys(long long& key_n, long long& key_publ_e, long long& key_priv_d
     key_publ_e = 2;
     while (key_publ_e < phi) // looking for a public key, but it must be mutually prime numbers with phi
     {
-        if (Calculate_greatest_common_divisor(key_publ_e, phi) == 1)
+        if (CalculateGreatestCommonDivisor(key_publ_e, phi) == 1)
             break;
         else
             key_publ_e++;
